@@ -1,7 +1,7 @@
 .PHONY: init venv pre-commit update clean test test-cov re-init
 
 VENV_NAME := venv
-ACTIVATE := venv/Scripts/activate
+ACTIVATE := .\venv\Scripts\activate
 
 init: init_venv pre-commit
 
